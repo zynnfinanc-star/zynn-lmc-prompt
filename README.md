@@ -1,1 +1,1 @@
-# zynn-lmc-prompt
+zynn-lmc-prompt
