@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d18">
+  <meta name="description" content="Dapatkan prompt AI Photo Restoration gratis dari Zyn LMC.">
+  <title>Free AI Prompt | Zyn LMC</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 24px 16px;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(ellipse at 50% 0%, #49216c 0, transparent 55%),
+        #100d18;
+      color: #f8f5ff;
+      font-family: system-ui, Arial, sans-serif;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 460px;
+      padding: 26px;
+      border: 1px solid #42304f;
+      border-radius: 25px;
+      background: #191421;
+      box-shadow: 0 22px 80px #0007;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo {
+      display: grid;
+      place-items: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 15px;
+      background: linear-gradient(135deg, #a855f7, #6d28d9);
+      font-size: 23px;
+    }
+
+    .brand-name {
+      font-weight: 850;
+      letter-spacing: 2px;
+    }
+
+    .subtitle {
+      color: #a9a0b7;
+      font-size: 11px;
+      margin-top: 3px;
+      letter-spacing: 1px;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 7px 11px;
+      border-radius: 30px;
+      background: #30213e;
+      color: #dcb8ff;
+      font-size: 11px;
+      font-weight: 750;
+    }
+
+    h1 {
+      margin: 16px 0 12px;
+      font-size: clamp(30px, 8vw, 40px);
+      line-height: 1.1;
+      letter-spacing: -1px;
+    }
+
+    p {
+      color: #bcb3c9;
+      font-size: 14px;
+      line-height: 1.75;
+    }
+
+    .features {
+      margin: 24px 0;
+      padding: 17px;
+      border-radius: 15px;
+      background: #241c30;
+    }
+
+    .feature {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin: 10px 0;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .check { color: #ce9bff; }
+
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 50px;
+      padding: 14px;
+      border: 0;
+      border-radius: 13px;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 800;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      transition: transform .15s, opacity .15s;
+    }
+
+    .button:active { transform: scale(.98); }
+
+    .primary {
+      color: white;
+      background: linear-gradient(100deg, #8738e8, #bd65f8);
+    }
+
+    .secondary {
+      margin-top: 12px;
+      color: #eee1ff;
+      background: #30243b;
+      border: 1px solid #59436d;
+    }
+
+    .muted {
+      opacity: .45;
+      pointer-events: none;
+    }
+
+    #unlockArea { display: none; }
+
+    .notice {
+      min-height: 24px;
+      margin: 13px 0;
+      font-size: 12px;
+      color: #d9c1f3;
+      line-height: 1.6;
+    }
+
+    .footer {
+      margin-top: 26px;
+      text-align: center;
+      color: #81768f;
+      font-size: 11px;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 360px) {
+      .card { padding: 21px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <header class="brand">
+      <div class="logo">✦</div>
+      <div>
+        <div class="brand-name">ZYN LMC</div>
+        <div class="subtitle">AI PHOTO RESTORATION</div>
+      </div>
+    </header>
+
+    <div class="tag">✧ FREE PROMPT ACCESS</div>
+
+    <h1>Upgrade Your<br>Photo Quality.</h1>
+
+    <p>
+      Mau mencoba prompt restorasi foto AI?
+      Dapatkan akses ke prompt gratis untuk membantu
+      meningkatkan detail, ketajaman, dan kualitas foto
+      dengan tetap memprioritaskan kemiripan gambar asli.
+    </p>
+
+    <section class="features">
+      <div class="feature">
+        <span class="check">✦</span>
+        <span>Prompt restorasi foto profesional</span>
+      </div>
+      <div class="feature">
+        <span class="check">✦</span>
+        <span>Fokus pada detail dan realisme</span>
+      </div>
+      <div class="feature">
+        <span class="check">✦</span>
+        <span>Link prompt langsung ke ChatGPT</span>
+      </div>
+      <div class="feature">
+        <span class="check">✦</span>
+        <span>Gratis untuk komunitas Zyn LMC</span>
+      </div>
+    </section>
+
+    <a class="button primary"
+       href="https://www.tiktok.com/@zynn.lmc"
+       target="_blank"
+       rel="noopener noreferrer">
+      ① FOLLOW @ZYNN.LMC DI TIKTOK
+    </a>
+
+    <button class="button secondary" id="confirmButton">
+      ② SAYA SUDAH FOLLOW
+    </button>
+
+    <p class="notice" id="status" role="status" aria-live="polite">
+      Follow akun TikTok, lalu kembali ke halaman ini.
+    </p>
+
+    <section id="unlockArea">
+      <div class="tag">✓ PROMPT TERSEDIA</div>
+      <h2>Siap, bro! 🎉</h2>
+      <p>
+        Terima kasih sudah mendukung Zyn LMC.
+        Tekan tombol berikut untuk membuka prompt di ChatGPT.
+      </p>
+      <a class="button primary"
+         href="https://chatgpt.com/s/p_6acc4fb9f39081918934e0041303fd9a"
+         target="_blank"
+         rel="noopener noreferrer">
+        ✨ BUKA PROMPT DI CHATGPT
+      </a>
+    </section>
+
+    <div class="footer">
+      ZYN LMC · FREE AI PROMPT<br>
+      Made for the AI photography community.
+    </div>
+  </main>
+
+  <script>
+    const confirmButton =
+      document.getElementById("confirmButton");
+    const unlockArea =
+      document.getElementById("unlockArea");
+    const status =
+      document.getElementById("status");
+
+    confirmButton.addEventListener("click", () => {
+      unlockArea.style.display = "block";
+      confirmButton.textContent = "✓ KONFIRMASI DITERIMA";
+      confirmButton.disabled = true;
+      status.textContent =
+        "Akses dibuka berdasarkan konfirmasi Anda. " +
+        "Website ini belum memverifikasi status follow secara otomatis.";
+
+      unlockArea.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest"
+      });
+    });
+  </script>
+</body>
+</html>
